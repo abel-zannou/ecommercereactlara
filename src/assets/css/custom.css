@@ -12,6 +12,9 @@
 @import 'megaMenuMobile.css';
 @import 'responsive.css';
 @import 'megaMenuAll.css';
+@import 'onboardForm.css';
+@import 'common.css';
+@import 'productDetails.css';
 
 body{
     background-color: #ffffff;

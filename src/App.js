@@ -4,17 +4,17 @@ import AppRoute from './route/AppRoute';
 
 function App() {
   return (
-    // <Fragment>
-        //     <Router>
-        //         <AppRoute/>
-        //     </Router>
-        // </Fragment>
-
-        <Fragment>
-        
+     <Fragment>
+             <Router>
                  <AppRoute/>
+             </Router>
+      </Fragment>
+
+        // <Fragment>
         
-        </Fragment>
+        //          <AppRoute/>
+        
+        // </Fragment>
   )
 }
 
