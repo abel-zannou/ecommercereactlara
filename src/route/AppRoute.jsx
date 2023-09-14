@@ -9,6 +9,7 @@ import PrivacyPage from '../pages/PrivacyPage';
 import ProductDetailsPage from '../pages/ProductDetailsPage';
 import NotificationPage from '../pages/NotificationPage';
 import FavoritePage from '../pages/FavoritePage';
+import CartPage from '../pages/CartPage';
 
 
 function AppRoute() {
@@ -26,6 +27,7 @@ function AppRoute() {
         <Route path="/productdetails" element={<ProductDetailsPage />} />
         <Route path="/notification" element={<NotificationPage />} />
         <Route path="/favorite" element={<FavoritePage />} />
+        <Route path="/cart" element={<CartPage />} />
       </Routes>
     </Fragment>
   )

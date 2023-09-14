@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react'
 import { Button, Col, Container, Navbar, Row } from 'react-bootstrap';
 import Logo from '../../assets/images/dgst_bien_reduit.png';
 import Bars from '../../assets/images/bars.png';
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import MegaMenuAll from '../home/MegaMenuAll';
 
@@ -46,7 +47,8 @@ const NavMenuDesktop = () => {
 
                                 <a href="" className='btn'><i className='fa h4 fa-mobile-alt'></i></a>
                                 <Link to="/login" className='h4 btn'>Login</Link>
-                                <Button className='cart-btn'><i className='fa fa-shopping-cart'></i> 3 Items</Button>
+                                <Link to="/cart" className='cart-btn'><i className='fa fa-shopping-cart'></i> 3 Items</Link> &nbsp;
+                               
                             </Col>
 
                         </Row>
@@ -61,7 +63,7 @@ const NavMenuDesktop = () => {
             <div className={contentOverlayState ? 'ContentOverlayOpen' : 'ContentOverlayClose'}>
                 {/* Contenu de la superposition */}
             </div>
-            
+
         </Fragment>
     )
 }
